@@ -6,7 +6,7 @@ const languages = [
     { code: 'en', name: 'English', flag: 'US' },
     { code: 'es', name: 'Spanish', flag: 'ES' },
     { code: 'fr', name: 'French', flag: 'FR' },
-    { code: 'de', name: 'German', flag: 'DE' },
+    { code: 'ru', name: 'Russian', flag: 'RU' },
     // Add more languages with their respective flag codes
 ];
 
@@ -34,7 +34,7 @@ const LanguageSwitcher = () => {
         <div className="App">
             <h1>Custom Google Translate Dropdown with Flags</h1>
 
-            <div className="dropdown" style={{ position: 'relative', width: '200px' }}>
+            <div className="dropdown rounded-sm" style={{ position: 'relative', width: '140px' }}>
                 <div
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     style={{
